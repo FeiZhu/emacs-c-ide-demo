@@ -1,3 +1,5 @@
+;; open .h in c++ mode
+(add-to-list 'auto-mode-alist '("\\.h\\'" . c++-mode))
 ;; company-c-headers
 (use-package company-c-headers
   :init
